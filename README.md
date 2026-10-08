@@ -19,7 +19,7 @@ The dataset is synthetic and was created for portfolio and analytics practice.
 
 View the interactive dashboard on Tableau Public:
 
-[View Retail Sales Executive Overview]([PASTE-TABLEAU-PUBLIC-LINK-HERE](https://public.tableau.com/views/Project1RetailSalesCustomerPerformance/RetailSalesExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[View Retail Sales Executive Overview](PASTE-TABLEAU-PUBLIC-LINK-HERE](https://public.tableau.com/views/Project1RetailSalesCustomerPerformance/RetailSalesExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)](https://public.tableau.com/views/Project1RetailSalesCustomerPerformance/RetailSalesExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 
 ![Retail Sales Executive Dashboard](screenshots/tableau_dashboard.png)
 
