@@ -208,6 +208,8 @@ Current files:
 
 ## Repository Structure
 
+## Repository Structure
+
 ```text
 retail-sales-analytics/
 │
@@ -223,3 +225,4 @@ retail-sales-analytics/
 └── screenshots/
     ├── README.md
     └── tableau_dashboard.png
+```
