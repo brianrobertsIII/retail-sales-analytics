@@ -208,8 +208,6 @@ Current files:
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 retail-sales-analytics/
 │
