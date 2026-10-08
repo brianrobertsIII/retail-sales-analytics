@@ -15,6 +15,16 @@ The dataset is synthetic and was created for portfolio and analytics practice.
 
 ---
 
+## Live Tableau Dashboard
+
+View the interactive dashboard on Tableau Public:
+
+[View Retail Sales Executive Overview]([PASTE-TABLEAU-PUBLIC-LINK-HERE](https://public.tableau.com/views/Project1RetailSalesCustomerPerformance/RetailSalesExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+
+![Retail Sales Executive Dashboard](screenshots/tableau_dashboard.png)
+
+---
+
 ## Business Problem
 
 A multichannel retailer wants to better understand its sales performance and answer several business questions:
@@ -142,6 +152,29 @@ Further analysis is needed to determine whether seasonality, promotions, custome
 
 ---
 
+## Dashboard Overview
+
+The Tableau dashboard provides an executive-level view of retail performance across January 2025 through June 2026.
+
+### Dashboard Features
+
+- Revenue, gross profit, gross margin, completed orders, and average order value KPIs
+- Monthly revenue trend analysis
+- Revenue comparison by region
+- Gross profit analysis by product category
+- Sales channel performance
+- Interactive Region, Category, and Sales Channel filters
+
+### Key Dashboard Findings
+
+- The West generated the highest regional revenue at **$246,425.15**
+- Electronics generated the highest gross profit at **$112,851.31**
+- Online was the strongest sales channel with **$451,871.66 in revenue**
+- Overall gross margin was approximately **37.4%**
+- The business generated **$824,104.62 in completed-order revenue**
+
+---
+
 ## SQL Analysis
 
 SQL queries are organized in the `/sql` directory.
@@ -153,6 +186,23 @@ Current files:
 - `03_sales_performance.sql` — planned
 - `04_customer_analysis.sql` — planned
 - `05_advanced_analysis.sql` — planned
+
+---
+
+## Project Status
+
+- [x] Google Sheets data preparation
+- [x] Initial KPI analysis
+- [x] Business findings and recommendations
+- [x] BigQuery SQL environment setup
+- [x] SQL fundamentals
+- [x] KPI analysis with SQL
+- [x] Multi-table JOIN analysis
+- [x] Customer analysis
+- [x] Advanced SQL analysis
+- [x] Tableau Executive Dashboard
+- [x] Tableau Public publishing
+- [x] GitHub project documentation
 
 ---
 
