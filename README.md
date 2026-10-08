@@ -19,7 +19,7 @@ The dataset is synthetic and was created for portfolio and analytics practice.
 
 View the interactive dashboard on Tableau Public:
 
-[View Retail Sales Executive Overview](PASTE-TABLEAU-PUBLIC-LINK-HERE](https://public.tableau.com/views/Project1RetailSalesCustomerPerformance/RetailSalesExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)](https://public.tableau.com/views/Project1RetailSalesCustomerPerformance/RetailSalesExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[View Retail Sales Executive Overview](https://public.tableau.com/views/Project1RetailSalesCustomerPerformance/RetailSalesExecutiveOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![Retail Sales Executive Dashboard](screenshots/tableau_dashboard.png)
 
@@ -84,7 +84,7 @@ Used for:
 - Window functions and trend analysis
 
 ### Tableau
-Will be used to create interactive dashboards for:
+Used to create an interactive executive dashboard for:
 
 - Executive sales performance
 - Customer and product analysis
@@ -133,9 +133,11 @@ This indicates that online sales contribute both significant sales volume and he
 
 ### 4. Monthly Performance
 
-January 2025 was the strongest observed month with **$21,278.29 in revenue**, while March 2025 generated **$14,416.94**.
+January 2025 was the highest-revenue month, generating **$57,148.67 in revenue**, while November 2025 was the lowest-revenue month at **$38,368.81**.
 
-Further analysis is needed to determine whether seasonality, promotions, customer behavior, or product mix caused the variation.
+Month-over-month analysis also found that December 2025 produced the strongest positive revenue growth at **18.42%**, while February 2025 experienced the largest decline at **23.50%**.
+
+These variations suggest that seasonality, promotions, product mix, and customer purchasing behavior should be investigated further.
 
 ---
 
@@ -180,13 +182,11 @@ The Tableau dashboard provides an executive-level view of retail performance acr
 SQL queries are organized in the `/sql` directory.
 
 Current files:
-
 - `01_sql_fundamentals.sql` — SELECT, WHERE, filtering, and ORDER BY
-- `02_kpi_analysis.sql` — coming next
-- `03_sales_performance.sql` — planned
-- `04_customer_analysis.sql` — planned
-- `05_advanced_analysis.sql` — planned
-
+- `02_kpi_analysis.sql` — revenue, gross profit, gross margin, order count, and AOV calculations
+- `03_sales_performance.sql` — regional, category, channel, and monthly performance analysis
+- `04_customer_analysis.sql` — customer segments, repeat customers, and lifetime revenue
+- `05_advanced_analysis.sql` — return analysis, product ranking, CTEs, RANK(), and LAG()
 ---
 
 ## Project Status
@@ -220,9 +220,6 @@ retail-sales-analytics/
 │   ├── 04_customer_analysis.sql
 │   └── 05_advanced_analysis.sql
 │
-├── screenshots/
-│   ├── google_sheets_dashboard.png
-│   └── tableau_dashboard.png
-│
-└── data/
-    └── README.md
+└── screenshots/
+    ├── README.md
+    └── tableau_dashboard.png
